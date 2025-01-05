@@ -1,0 +1,179 @@
+(footprint "1pin_conn-mod"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resitance 3 pas")
+	(tags "R")
+	(property "Reference" "H53"
+		(at 0 1.651 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2935a94-1be1-4b56-8c02-b115f101e00f")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_Pad"
+		(at 0 -1.4605 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c636b21-74e0-4827-9c63-687a1839404f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "351a9ecb-63c8-4e15-8643-166c68042c1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e651192d-3124-4aa1-8db4-0e6cf70837dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aa54a9c-834c-484d-8bd5-3af543d5fc83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ceda1386-ef4f-420e-8c2c-b708c7907648")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7befc470-1a02-4a57-958a-bb3046cdb03b")
+	)
+	(fp_line
+		(start -0.793752 -0.793752)
+		(end 0.793752 -0.793752)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0dea5fa7-3667-4a15-8ee6-048d1e0b7635")
+	)
+	(fp_line
+		(start -0.793752 0.793752)
+		(end -0.793752 -0.793752)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eeba0217-3b4a-4f03-a6a3-671d4899778c")
+	)
+	(fp_line
+		(start 0.793752 -0.793752)
+		(end 0.793752 0.793752)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8759568-9abe-423b-a807-74fd834c0213")
+	)
+	(fp_line
+		(start 0.793752 0.793752)
+		(end -0.793752 0.793752)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57a26fe5-b480-4b22-961c-4806d10e109a")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7509b3e-b4c2-4ae8-b3cf-465f1ea6c5f3")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed7f774c-adfd-4678-9a61-628c46cabe34")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc51b221-05b4-4d4b-91e5-67121a81b1ff")
+	)
+	(model "discret/resistor.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.3 0.3 0.3)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.2 0.2 0.2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
